@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "playwright": "^1.39.0"
+  },
+  "name": "altech-omega",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.9.0"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "author": "Prima",
+  "license": "ISC"
+}
